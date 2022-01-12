@@ -44,9 +44,9 @@ The upscaling images will be generated in `results/`.
 python -m torch.distributed.launch --nproc_per_node=4 --master_port=1234 main_train_psnr.py --opt options/train_swinir_sr_classical.json  --dist True
 ```
 * Make sure below three numbers keep same
-  1. **--nproc_per_node** in your argument
-  2. **dataloader_batch_size** in `train_swinir_sr_classical.json`
-  3. Numbers of GPU, you can set it by **gpu_ids** in `train_swinir_sr_classical.json`
+1. **--nproc_per_node** in your argument
+2. **dataloader_batch_size** in `train_swinir_sr_classical.json`
+3. Numbers of GPU, you can set it by **gpu_ids** in `train_swinir_sr_classical.json`
 
 ## Reference
 
