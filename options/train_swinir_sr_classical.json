@@ -1,7 +1,7 @@
 {//sync test
   "task": "swinir_sr_patch48_x3"     //  classical image sr for x2/x3/x4/x8. root/task/images-models-options
   , "model": "plain" // "plain" | "plain2" if two inputs
-  , "gpu_ids": [0,1,2,3]   // this doesn't work!!! please check out the readme on github.
+  , "gpu_ids": [0,1]   // this doesn't work!!! please check out the readme on github.
   , "dist": true
 
   , "scale": 3       // 2 | 3 | 4 | 8
@@ -26,7 +26,7 @@
       , "dataloader_num_workers": 16
       , "dataloader_batch_size": 4
       // batch size 1 | 16 | 32 | 48 | 64 | 128. 
-      // Total batch size =4x8=32 in SwinIR
+      // Total batch size = 4x8 = 32 in SwinIR
     }
     , "test": {
       "name": "test_dataset"
