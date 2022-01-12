@@ -1,1 +1,1 @@
-CUDA_VISIBLE_DEVICES=0 python inference.py --scale 3 --model_path checkpoints/swinir_sr_patch48_x3/models/100000_G.pth --save_dir results/100000/
+CUDA_VISIBLE_DEVICES=0 python inference.py --scale 3 --model_path checkpoints/swinir_classical_sr_x3.pth --folder_lq datasets/testing_lr_images --save_dir results
