@@ -31,7 +31,7 @@ You can adjust the split condition in [line 21](https://github.com/tina-1007/Ima
 
 ## Testing
 #### 1. Download the trained weights 
-Get my trained model from [here](https://drive.google.com/file/d/1zYvwOylTeCwhq_wGL7mvUoFQ0X7v4kxK/view?usp=sharing) and put it in `/checkpoints/`
+Get my trained model from [here](https://drive.google.com/file/d/1zYvwOylTeCwhq_wGL7mvUoFQ0X7v4kxK/view?usp=sharing) and put it in `checkpoints/`
 
 #### 2. Generate result images
 ``` 
