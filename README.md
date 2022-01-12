@@ -50,7 +50,5 @@ python -m torch.distributed.launch --nproc_per_node=4 --master_port=1234 main_tr
 
 ## Reference
 
-1. SwinIR
-    * Paper - https://arxiv.org/abs/2108.10257
-    * Github - https://github.com/JingyunLiang/SwinIR)
-2. Training Code - https://github.com/cszn/KAIR/blob/master/docs/README_SwinIR.md
+1. SwinIR Model - https://github.com/JingyunLiang/SwinIR
+2. SwinIR Training Code - https://github.com/cszn/KAIR/blob/master/docs/README_SwinIR.md
